@@ -52,7 +52,7 @@ int main(void) {
     }
     printf("\n");
 
-    const char *secret_message = "You hear a faint rumbling and the ground begins to shake \nYou see a huge blimp rising out of the pond \nthe geese all flee in fear! \nthe park is free again! \nHere is your flag: Super_Goose_Attack_Blimp";
+    const char *secret_message = "You hear a faint rumbling and the ground begins to shake \n You see a huge blimp rising out of the pond \n the geese all flee in fear! \n the park is free again! \n Here is your flag: Super_Goose_Attack_Blimp";
     size_t msg_len = strlen(secret_message);
     char *encoded_msg = malloc(msg_len + 1);
     if (!encoded_msg) {
